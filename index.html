@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+ <link rel="stylesheet" href="style.css">
+ <!-- fonts -->
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@700&display=swap" rel="stylesheet">
+<!-- Vendor CSS Files -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+ <title>Document</title>
+</head>
+<body>
+ <header>
+  <a href="" class="brand">Pure Insights</a>
+  <div class="menu-btn"></div>
+  <div class="navigation">
+   <div class="navigation-items">
+    <a href="">Home</a>
+    <a href="">Contact Us</a>
+    <a href="">About Us</a>
+   </div>
+  </div>
+ </header>
+ <section class="home">
+  <!-- <video class="video-slide active" autoplay="autoplay" loop="loop" controls="controls" muted="muted">
+    <source src="12.mp4" type="video/mp4">
+  </video> -->
+  <!-- <video class="video-slide active" controls autoplay muted loop>
+    <source src="movie.mp4" type="video/mp4">
+    
+  </video> -->
+  <video class="video-slide active" id="yes" src="img/4.mp4" type="video/mp4" autoplay muted loop></video>
+  <video class="video-slide" src="img/5.mp4" type="mp4"  autoplay muted loop></video>
+  <video class="video-slide" src="img/3.mp4" type="mp4"  autoplay muted loop></video>
+  <video class="video-slide" src="img/4.mp4" type="mp4"  autoplay muted loop></video>
+  <video class="video-slide" src="img/5.mp4" type="mp4"  autoplay muted loop></video>
+  <div class="content active">
+    <h1>Pure<br><span>Insights</span></h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
+     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+  </div>
+  <div class="slider-navigation">
+    <div class="nav-btn active" id="sure" onclick="pl()"></div>
+    <div class="nav-btn" ></div>
+    <div class="nav-btn" ></div>
+    <div class="nav-btn" ></div>
+    <div class="nav-btn" ></div>
+  </div>
+  
+  </section>
+  <!-- reviews section -->
+  <div class="reviews">
+    <div class="heading">
+      
+      <h2>See what our clients said about us.</h2>
+    </div>
+    
+      
+    <div class="swiper-container1 mySwiper">
+      <div class="swiper-wrapper1">
+        <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+          <path fill="#FFEA00" d="M56.4,-15.8C66,11.1,61.7,45.1,42.4,59.3C23.1,73.5,-11.1,68,-31.1,51.4C-51.1,34.9,-56.9,7.2,-49.3,-16.9C-41.8,-41.1,-20.9,-61.9,1.3,-62.3C23.4,-62.7,46.9,-42.8,56.4,-15.8Z" transform="translate(100 100)" />
+        </svg>
+        <svg class="sec" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+          <path fill="#FFFF00" d="M45.8,-2.1C45.8,11.7,22.9,23.4,10.1,23.4C-2.7,23.4,-5.4,11.7,-5.4,-2.1C-5.4,-15.9,-2.7,-31.8,10.1,-31.8C22.9,-31.8,45.8,-15.9,45.8,-2.1Z" transform="translate(100 100)" />
+        </svg>
+        <div class="cl">
+        
+        <div class="swiper-slide1 active">
+          <div class="testimonialBox">
+            <img src="img/quotation.png" alt="" class="quote">
+            <div class="content">
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                when an unknown printer took a galley</p>
+                <div class="details">
+                  <div class="imgbox">
+                    <img src="img/boss.png" alt="">
+                  </div>
+                  <h3>Harsh Ghosalkar</h3>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+        <!-- 2 -->
+        <div class="cl">
+          
+        <div class="swiper-slide1">
+          <div class="testimonialBox">
+            <img src="img/quotation.png" alt="" class="quote">
+            <div class="content">
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                when an unknown printer took a galley</p>
+                <div class="details">
+                  <div class="imgbox">
+                    <img src="img/woman.png" alt="">
+                  </div>
+                  <h3>Shruti Ghosalkar</h3>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+        <!-- 3 -->
+        <div class="cl">
+         
+        <div class="swiper-slide1 ">
+          <div class="testimonialBox">
+            <img src="img/quotation.png" alt="" class="quote">
+            <div class="content">
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+                It has survived not only five centuries, 
+                but also the leap into electronic typesetting, remaining essentially unchanged. 
+                It was popularised in the 1960s with the release of 
+                Letraset sheets containing Lorem Ipsum passages, 
+                and more recently with desktop publishing software like 
+                Aldus PageMaker including versions of Lorem Ipsum.</p>
+                <div class="details">
+                  <div class="imgbox">
+                    <img src="img/boss.png" alt="">
+                  </div>
+                  <h3>Vansh Damania</h3>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+        <!-- 4 -->
+        <div class="cl">
+        
+        <div class="swiper-slide1">
+          <div class="testimonialBox">
+            <img src="img/quotation.png" alt="" class="quote">
+            <div class="content">
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                when an unknown printer took a galley</p>
+                <div class="details">
+                  <div class="imgbox">
+                    <img src="img/woman.png" alt="">
+                  </div>
+                  <h3>Kammya Kookani</h3>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+         <!-- 5 -->
+         <div class="cl">
+         
+         <div class="swiper-slide1">
+          <div class="testimonialBox">
+            <img src="img/quotation.png" alt="" class="quote">
+            <div class="content">
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                when an unknown printer took a galley</p>
+                <div class="details">
+                  <div class="imgbox">
+                    <img src="img/boss.png" alt="">
+                  </div>
+                  <h3>Jhenil Parihar</h3>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+     
+    </div>
+    
+  
+  </div>
+<!-- vidreview -->
+<div class="rcommon">
+<div class="vreviews">
+  <div class="vrheading">
+    <h2>Reason why we enjoy doing what we do.</h2>
+  </div>
+  <div class="row1">
+    <div class="col1">
+      <div class="featureImg">
+        <img src="img/vr2.png" alt="" width="100%">
+        <img src="img/play.png" alt="" class="play-btn" onclick="playvd('5.mp4')">
+        <div class="vr"></div>
+      </div>
+      
+    </div>
+    <div class="col1">
+      <div class="col-in active">
+        <div class="col-img">
+          <img src="img/vr3.png" alt="">
+          <img src="img/play.png" alt="" class="play-btn" onclick="playvd('4.mp4')">
+        </div>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+          Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. 
+         </p>
+      </div>
+      <div class="col-in">
+        <div class="col-img">
+          <img src="img/vr4.png" alt="">
+          <img src="img/play.png" alt="" class="play-btn" onclick="playvd('3.mp4')">
+        </div>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+          Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. 
+         </p>
+      </div>
+      <div class="col-in">
+        <div class="col-img">
+          <img src="img/vr1.png" alt="">
+          <img src="img/play.png" alt="" class="play-btn" onclick="playvd('4.mp4')">
+        </div>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+          Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. 
+         </p>
+      </div>
+       <div class="bts">
+        <img src="img/previous.png" id="back-btn" alt="" style="width: 35px;" onclick="vnext()">
+        <img src="img/next-button.png" id="next-btn" alt="" style="width: 35px;" onclick="vprev()">
+       </div>
+      
+    </div>
+   
+  </div>
+</div>
+<div class="video-player" id="video-player">
+  <video src="img/3.mp4" type="video/mp4" id="my-video" width="100%" controls autoplay></video>
+  <img src="img/close-button.png" alt="" class="close-btn" onclick="closevd()">
+</div>
+</div>
+
+<!-- why us -->
+<div class="blob-common">
+  <svg id="sv1" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+    <path fill="#FFBE0B" d="M65.2,-38.9C78,-15.5,77.5,14.5,64.4,37.9C51.3,61.4,25.6,78.3,-1.2,79C-28.1,79.7,-56.2,64.2,-70.6,40C-84.9,15.9,-85.5,-16.9,-71.5,-41C-57.4,-65.2,-28.7,-80.6,-1.3,-79.9C26.2,-79.1,52.4,-62.3,65.2,-38.9Z" transform="translate(100 100)" />
+  </svg>
+  <svg id="sv2" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+    <path fill="#FFBE0B" d="M65.2,-38.9C78,-15.5,77.5,14.5,64.4,37.9C51.3,61.4,25.6,78.3,-1.2,79C-28.1,79.7,-56.2,64.2,-70.6,40C-84.9,15.9,-85.5,-16.9,-71.5,-41C-57.4,-65.2,-28.7,-80.6,-1.3,-79.9C26.2,-79.1,52.4,-62.3,65.2,-38.9Z" transform="translate(100 100)" />
+  </svg>
+<div class="us-common">
+  
+   
+
+  <div class="usheading">
+    <h2>Why us</h2>
+  </div> 
+  <div class="ucont">
+    <div class="u-img">
+      <div class="u-info">
+        <img class="svg" src="img/expert.svg" alt="">
+        <h3>Expert designers</h3>
+      </div>
+      <div class="u-info">
+        <img class="svg" src="img/expert.svg" alt="">
+        <h3>Expert designers</h3>
+      </div>
+      <div class="u-info">
+        <img class="svg" src="img/expert.svg" alt="">
+        <h3>Expert designers</h3>
+      </div>
+    </div>
+  </div>    
+</div>
+</div>
+ <!-- u-slider  -->
+ <div class="u-slider">
+  <div class="usheading">
+    <h2>Designing your home with Livspace is a cakewalk</h2>
+  </div>
+  <div class="stage">
+    <div class="stage-in">
+      <hr>
+      <div class="circle active">
+        <h3>1</h3>
+        
+      </div>
+      <div class="circle">
+        <h3>2</h3>
+        
+      </div>
+      <div class="circle">
+        <h3>3</h3>
+        
+      </div>
+      <div class="circle">
+        <h3>4</h3>
+        
+      </div>
+      <div class="circle">
+        <h3>5</h3>
+        
+      </div>
+    </div>
+  </div> 
+    <div id="portfolio-details" class="portfolio-details">
+      <div class="container">
+
+        <div class="row gy-4">
+          <div class="col">
+            <div class="portfolio-details-slider swiper-container">
+              <div class="swiper-wrapper align-items-center">
+
+                <div class="swiper-slide">
+                  <img src="img/1.jpg" alt="">
+                </div>
+
+                <div class="swiper-slide">
+                  <img src="img/2.jpg" alt="">
+                </div>
+				
+				<div class="swiper-slide">
+                  <img src="img/3.jpg" alt="">
+                </div>
+
+                <div class="swiper-slide">
+                  <img src="img/4.jpg" alt="">
+                </div>
+				
+				<div class="swiper-slide">
+                  <img src="img/5.jpg" alt="">
+                </div>
+
+              </div>
+              <!-- <div class="swiper-pagination"></div> -->
+            </div>
+          </div>
+ 
+        </div>
+
+      </div>
+    </div>
+  
+  
+  </div>
+
+
+
+  
+<!-- Vendor JS Files -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <script src="vendor/glightbox.min.js"></script>
+  
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="main.js"></script>
+
+  <script type="text/javascript">
+    //Javacript for responsive navigation menu
+    const menuBtn = document.querySelector(".menu-btn");
+    const navigation = document.querySelector(".navigation");
+
+    menuBtn.addEventListener("click", () => {
+      menuBtn.classList.toggle("active");
+      navigation.classList.toggle("active");
+    });
+
+
+    const btns = document.querySelectorAll(".nav-btn");
+    const slides = document.querySelectorAll(".video-slide");
+    // const contents = document.querySelectorAll(".content");
+
+    var sliderNav = function(manual){
+      btns.forEach((btn) => {
+        btn.classList.remove("active");
+      });
+
+      slides.forEach((slide) => {
+        slide.classList.remove("active");
+      });
+
+      // contents.forEach((content) => {
+      //   content.classList.remove("active");
+      // });
+
+      btns[manual].classList.add("active");
+      slides[manual].classList.add("active");
+      // contents[manual].classList.add("active");
+    }
+
+    btns.forEach((btn, i) => {
+      btn.addEventListener("click", () => {
+        sliderNav(i);
+      });
+    });
+    function pl(){
+    let sr= document.getElementById("yes");
+    sr.muted=false;
+    }
+
+    
+    let rslides = document.querySelectorAll(".swiper-slide1");
+        let index = 0;
+    
+        window.onload =function recur(){
+          setTimeout(function next(){
+          rslides[index].classList.remove("active");
+          index = (index + 1 ) % rslides.length;
+          rslides[index].classList.add("active");
+          recur();
+        }, 9000);
+        }
+        let videoPlayer = document.getElementById("video-player");
+        let myVideo = document.getElementById("my-video");
+        // let video = document.querySelectorAll("video");
+        function closevd(){
+          videoPlayer.style.display="none";
+          myVideo.pause();
+        }
+        function playvd(file){
+          const myfile="img/"+file;
+          console.log(file);
+          // myVideo.scr = file;
+          myVideo.setAttribute("src",myfile);
+          videoPlayer.style.display="block";
+        }
+        // extra
+        let rview = document.querySelectorAll(".col-in");
+        let index1 = 0;
+        function vnext(){
+          rview[index1].classList.remove("active");
+          index1 = (index1 + 1 ) % rview.length;
+          rview[index1].classList.add("active");
+        }
+        function vprev(){
+          rview[index1].classList.remove("active");
+          index1 = (index1 - 1 + rview.length) % rview.length;
+          rview[index1].classList.add("active");
+        } 
+        let i=0;
+      
+        // window.onload =function rep(){
+        //   let fir=document.querySelector(".first");
+         
+        //   if(i==4){
+        //     i=0;
+        //     fir.style.marginLeft="20%";
+        //     rep();
+        // }
+        // setTimeout(function go(){
+         
+        //   if(i==1){
+        //    fir.style.marginLeft="-80%";
+          
+        //  }
+        //  if(i==2){
+        //    fir.style.marginLeft="-180%";
+           
+
+        //  }
+        //  i++;
+        //   rep();
+        // }, 2000);
+
+        // }
+
+       
+        let circle=document.querySelectorAll(".circle");
+        let count=0;
+        let count2=0;
+        window.onload =function rec(){
+          setTimeout(function ne(){
+            if(count==4){
+         
+           
+            for(var j=1;j<5;j++){
+                
+                circle[j].classList.remove("active");
+              }
+            if(count2%40==0){
+              count=0;
+            }else{
+              count=-1;
+            }
+              
+              // setTimeout(rec(),2100);
+            }else{
+              var cot=count+1;
+              circle[cot].classList.add("active");
+              count++;
+            }
+            count2++;
+            
+          rec();
+        }, 2000);
+        }
+        
+  </script>
+
+</body>
+</html>
