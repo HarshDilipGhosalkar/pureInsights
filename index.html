@@ -474,8 +474,12 @@
          
            
             for(var j=1;j<5;j++){
-                
-                circle[j].classList.remove("active");
+                if(j==4){
+                  circle[j].style.backgroundColor = "red";
+                }else{
+                  circle[j].classList.remove("active");
+                }
+               
               }
             if(count2%40==0){
               count=0;
@@ -485,9 +489,16 @@
               
               // setTimeout(rec(),2100);
             }else{
-              var cot=count+1;
+              if(count==3){
+                var cot=count+1;
+              circle[cot].style.backgroundColor = "#28a745";
+              count++;
+              }else{
+                var cot=count+1;
               circle[cot].classList.add("active");
               count++;
+              }
+             
             }
             count2++;
             // console.log(count);
