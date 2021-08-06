@@ -977,7 +977,7 @@ header .navigation.active .navigation-items{
     font-size: 150%;
     font-weight: 500;
     text-transform: uppercase;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     line-height: 50px;
     /* margin-bottom: 40px; */
     padding: 0 5px;
