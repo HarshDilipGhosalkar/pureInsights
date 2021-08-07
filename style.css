@@ -632,6 +632,7 @@ letter-spacing: 1px;
 .circle.active::after {
 	content: '';
     position: absolute;
+    z-index: -1;
     right: -90px;
     bottom: 20px;
     height: 2px;
