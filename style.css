@@ -637,10 +637,18 @@ letter-spacing: 1px;
     bottom: 20px;
     height: 2px;
     width: 70px;
-    background-color: #28a745;
+    background-color: #11FA09;
+ box-shadow: 0 0 15px #11FA09,
+ 0 0 25px #11FA09,
+ 0 0 40px #11FA09,
+ 0 0 70px #11FA09;
 }
 .circle.active{
-  background-color: #28a745;
+  background-color: #11FA09;
+  box-shadow: 0 0 15px #11FA09,
+  0 0 25px #11FA09,
+  0 0 40px #11FA09,
+  0 0 70px #11FA09;
 }
 .stage-in{
   width: 60%;
@@ -655,7 +663,7 @@ letter-spacing: 1px;
   width: 50px;
   height: 50px;
   border-radius: 50px;
-  background-color: red;
+  background-color: #f4978e;
   position: relative;
   /* z-index: 99; */
 }
@@ -988,7 +996,11 @@ header .navigation.active .navigation-items{
     bottom: 20px;
     height: 2px;
     width: 70px;
-    background-color: #28a745;
+    background-color: #11FA09;
+    box-shadow: 0 0 15px #11FA09,
+    0 0 25px #11FA09,
+    0 0 40px #11FA09,
+    0 0 70px #11FA09;
 }
  .heading{
   width: 110%;
