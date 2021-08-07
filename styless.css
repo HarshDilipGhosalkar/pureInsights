@@ -6,6 +6,7 @@
 	background: #e2eafc;
 	z-index: 1;
 	width: 100%;
+	border-bottom: 20px solid #e2eafc;
 }
 .section-title{
 	float: left;
@@ -66,24 +67,32 @@
 	outline: none;
 }
 .listing-carousel-button.listing-carousel-button-next{
-	top: 80%;
+	top: 95%;
 	right: -0px;
 	padding-right: 20px;
 	border-radius: 60px 0 0 60px;
 }
 .listing-carousel-button.listing-carousel-button-prev{
-	top: 80%;
+	top: 95%;
 	left: -0px;
 	padding-left: 20px;
 	border-radius: 0 60px 60px 0;
 }
 .listing-carousel-button.listing-carousel-button-next:hover{
 	
-	background: rgba(6,27,65,0.4);
+	background: #FFC300;
+	box-shadow: 0 0 15px #FFC300,
+ 0 0 25px #FFC300,
+ 0 0 40px #FFC300,
+ 0 0 70px #FFC300;
 }
 .listing-carousel-button.listing-carousel-button-prev:hover{
 	
-	background: rgba(6,27,65,0.4);
+	background: #FFC300;
+	box-shadow: 0 0 15px #FFC300,
+ 0 0 25px #FFC300,
+ 0 0 40px #FFC300,
+ 0 0 70px #FFC300;
 }
 .testi-item {
 	transition: all .3s ease-in-out;

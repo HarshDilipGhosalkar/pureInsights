@@ -271,6 +271,15 @@ border-top: 50px solid #e9ecef;
   display: block;
 
 }
+iframe{
+  border-radius: 20px;
+  margin: 0 auto;
+}
+.swa{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .testimonialBox{
   position: relative;
   width: 100%;
@@ -470,8 +479,9 @@ border-top: 50px solid #e9ecef;
 }
 .video-player{
   width: 80%;
-  height: 80%;
+  height: 100%;
   position: absolute;
+  z-index: 999;
   left: 50%;
   top: 50%;
   transform: translate(-50%,-50%);
