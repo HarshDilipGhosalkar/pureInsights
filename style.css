@@ -470,13 +470,16 @@ border-top: 50px solid #e9ecef;
 }
 .video-player{
   width: 80%;
-  height: 100%;
+  height: 80%;
   position: absolute;
   left: 50%;
   top: 50%;
   transform: translate(-50%,-50%);
   object-fit: cover;
   cursor: pointer;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
 }
 #video-player{
   display: none;
@@ -488,6 +491,7 @@ border-top: 50px solid #e9ecef;
   width: 30px;
   width: 30px;
   cursor: pointer;
+  margin: auto 0;
 }
 .rcommon{
   position: relative;
@@ -804,6 +808,20 @@ header .navigation.active .navigation-items{
     }
   .vr{
     display: none;
+  }
+  .video-player{
+    width: 100%;
+    /* height: 100%; */
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    object-fit: cover;
+    cursor: pointer;
+  }
+  #my-video{
+    margin-bottom: 0px;
+    height: 30%;
   }
    .col-in p {
     flex: 100%;
