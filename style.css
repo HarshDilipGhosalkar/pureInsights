@@ -470,7 +470,7 @@ border-top: 50px solid #e9ecef;
 }
 .video-player{
   width: 80%;
-  
+  height: 100%;
   position: absolute;
   left: 50%;
   top: 50%;

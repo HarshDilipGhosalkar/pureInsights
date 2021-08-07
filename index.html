@@ -191,7 +191,7 @@
     <div class="col1">
       <div class="featureImg">
         <img src="img/vr2.png" alt="" width="100%">
-        <img src="img/play.png" alt="" class="play-btn" onclick="playvd('5.mp4')">
+        <img src="img/play.png" alt="" class="play-btn" onclick="playvd('/embed/zJwbZX4i-N4')">
         <div class="vr"></div>
       </div>
       
@@ -200,7 +200,7 @@
       <div class="col-in active">
         <div class="col-img">
           <img src="img/vr3.png" alt="">
-          <img src="img/play.png" alt="" class="play-btn" onclick="playvd('4.mp4')">
+          <img src="img/play.png" alt="" class="play-btn" onclick="playvd('/embed/_Ecl_XEETEA')">
         </div>
         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
           Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. 
@@ -209,7 +209,7 @@
       <div class="col-in">
         <div class="col-img">
           <img src="img/vr4.png" alt="">
-          <img src="img/play.png" alt="" class="play-btn" onclick="playvd('3.mp4')">
+          <img src="img/play.png" alt="" class="play-btn" onclick="playvd('/embed/RVK4SESfB4U')">
         </div>
         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
           Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. 
@@ -218,7 +218,7 @@
       <div class="col-in">
         <div class="col-img">
           <img src="img/vr1.png" alt="">
-          <img src="img/play.png" alt="" class="play-btn" onclick="playvd('4.mp4')">
+          <img src="img/play.png" alt="" class="play-btn" onclick="playvd('/embed/p_SaeH1qpng')">
         </div>
         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
           Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. 
@@ -234,8 +234,9 @@
   </div>
 </div>
 <div class="video-player" id="video-player">
-  <video src="img/3.mp4" type="video/mp4" id="my-video" width="100%" controls autoplay></video>
+  <!-- <video src="img/3.mp4" type="video/mp4" id="my-video" width="100%" controls autoplay></video> -->
   <img src="img/close-button.png" alt="" class="close-btn" onclick="closevd()">
+  <iframe id="my-video" width="100%" height="100%" src="https://www.youtube.com/embed/zJwbZX4i-N4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 </div>
 
@@ -415,10 +416,12 @@
         // let video = document.querySelectorAll("video");
         function closevd(){
           videoPlayer.style.display="none";
-          myVideo.pause();
+          // myVideo.stopVideo();
+          // var frame = document.getElementById("myVideo");
+          myVideo.setAttribute("src",'');
         }
         function playvd(file){
-          const myfile="img/"+file;
+          const myfile="https://www.youtube.com"+file;
           console.log(file);
           // myVideo.scr = file;
           myVideo.setAttribute("src",myfile);
