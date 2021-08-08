@@ -249,7 +249,7 @@ border-top: 50px solid #e9ecef;
  display: flex;
  justify-content: center;
  }
-.swiper-slide1 {
+.swiper-slide1{
   background-position: center;
   background-size: cover;
   width: 50%;
@@ -280,7 +280,7 @@ iframe{
   justify-content: center;
   align-items: center;
 }
-.testimonialBox{
+.testimonialBox1{
   position: relative;
   width: 100%;
   padding: 40px;
@@ -290,7 +290,7 @@ iframe{
 .content{
   margin-top: 20px;
 }
-.testimonialBox .quote{
+.testimonialBox1 .quote{
   width: 70px;
   height: 70px;
   position: absolute;
@@ -298,12 +298,12 @@ iframe{
   right: 30px;
   
 }
-.testimonialBox .details{
+.testimonialBox1 .details{
   display: flex;
   align-items: center;
   margin-top: 20px;
 }
-.testimonialBox .details .imgbox{
+.testimonialBox1 .details .imgbox{
   position: relative;
   width: 60px;
   height: 60px;
@@ -311,7 +311,7 @@ iframe{
   overflow: hidden;
   margin-right: 10px;
 }
-.testimonialBox .details .imgbox img{
+.testimonialBox1 .details .imgbox img{
   position: absolute;
   top: 0;
   left: 0;
@@ -319,7 +319,7 @@ iframe{
   height: 100%;
   object-fit: cover;
 }
-.testimonialBox .details h3{
+.testimonialBox1 .details h3{
   font-size: 16px;
   font-weight: 400;
   letter-spacing: 1px;
@@ -638,17 +638,11 @@ letter-spacing: 1px;
     height: 2px;
     width: 70px;
     background-color: #11FA09;
- box-shadow: 0 0 15px #11FA09,
- 0 0 25px #11FA09,
- 0 0 40px #11FA09,
- 0 0 70px #11FA09;
+ 
 }
 .circle.active{
   background-color: #11FA09;
-  box-shadow: 0 0 15px #11FA09,
-  0 0 25px #11FA09,
-  0 0 40px #11FA09,
-  0 0 70px #11FA09;
+ 
 }
 .stage-in{
   width: 60%;
@@ -997,10 +991,7 @@ header .navigation.active .navigation-items{
     height: 2px;
     width: 70px;
     background-color: #11FA09;
-    box-shadow: 0 0 15px #11FA09,
-    0 0 25px #11FA09,
-    0 0 40px #11FA09,
-    0 0 70px #11FA09;
+  
 }
  .heading{
   width: 110%;
