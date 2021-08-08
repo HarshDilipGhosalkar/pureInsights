@@ -824,14 +824,29 @@ letter-spacing: 1px;
     width: 0;
   }
 }
-/* .progress-bar1 .skills .name{
-  position: absolute;
-  
-  text-align: left;
-  color: #F7A903;
-  margin-top: -2px;
+/* products */
+.products1{
+  width: 100%;
+  height: 100%;
+  background: #e9ecef;
+  position: relative;
+}
+.prod-heading{
+  width: 100%;
+  border-top: 50px solid #e9ecef;
+  border-bottom: 50px solid #e9ecef;
+  text-align: center;
+  color: #FFC300;
+}
+.prod-heading h2{
+  color: #FFC300;
+  font-size: 250%;
+  font-weight: 400;
   text-transform: uppercase;
-} */
+  letter-spacing: 1px;
+  line-height: 95px;
+  
+}
 @media (max-width: 1040px){
  header{
    padding: 12px 20px;
@@ -1109,6 +1124,16 @@ header .navigation.active .navigation-items{
     line-height: 50px;
     /* margin-bottom: 40px; */
     padding: 0 5px;
+}
+.prod-heading h2{
+  color: #FFC300;
+  font-size: 150%;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  line-height: 50px;
+ 
+  padding: 0 5px;
 }
 .vrheading{
   width: 100%;
