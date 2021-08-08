@@ -979,7 +979,7 @@ header .navigation.active .navigation-items{
   width: 40px;
   height: 40px;
   border-radius: 50px;
-  background-color: red;
+  background-color: #ff99ac;
   position: relative;
   /* z-index: 99; */
 }
