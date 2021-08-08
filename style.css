@@ -324,6 +324,7 @@ iframe{
   padding: 40px;
   padding-top: 90px;
   color: #F7A903;
+  
 }
 .content{
   margin-top: 20px;
@@ -607,6 +608,7 @@ letter-spacing: 1px;
   margin-bottom: 50px;
   border-radius: 15px;
   padding: 15px 0;
+  
 }
 .u-info{
   margin: auto;
@@ -698,6 +700,7 @@ letter-spacing: 1px;
   border-radius: 50px;
   background-color: #ff99ac;
   position: relative;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   /* z-index: 99; */
 }
 .circle h3{
@@ -705,31 +708,9 @@ letter-spacing: 1px;
   text-align: center;
   margin-top: 30%;
 }
-.right-hr{
-  position: absolute;
-  z-index: -1;
-  top: 45%;
-  height: 1px;
-  border-top: 3px dashed #979797;
-  right: 0;
-  left: 50%;
-  margin-left: 20px;
-  width: 100%;
-  
-}
-.left-hr{
-  position: absolute;
-  z-index: -1;
-  left: 0;
-    right: 80%;
-    margin-right: 40px;
-  
-    top: 45px;
-    height: 1px;
-    width: 100%;
-    border-top: 3px dashed #979797;
-  
-}
+
+
+
 .portfolio-details a {
   color: var(--primary-color);
   text-decoration: none;
