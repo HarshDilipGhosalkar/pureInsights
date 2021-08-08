@@ -261,6 +261,7 @@ border-top: 50px solid #e9ecef;
   transform-style: preserve-3d;  
   animation: slide1 .4s linear;
   margin-top: 80px;
+  position: relative;
   }
   @keyframes slide1{
     0%{
@@ -271,6 +272,7 @@ border-top: 50px solid #e9ecef;
   display: block;
 
 }
+
 iframe{
   border-radius: 10px;
   margin: 0 auto;
@@ -279,6 +281,42 @@ iframe{
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.swiper-slide{
+  position: relative;
+}
+.swiper-slide:nth-child(1):after{
+  content: 'Meet your designer';
+ 
+}
+.swiper-slide:nth-child(2):after{
+  content: 'Book Pure Insight';
+ 
+}
+.swiper-slide:nth-child(3):after{
+  content: 'Place the order';
+ 
+}
+.swiper-slide:nth-child(4):after{
+  content: 'Execution and installation';
+ 
+}
+.swiper-slide:nth-child(5):after{
+  content: 'Move in!';
+ 
+}
+.swiper-slide::after{
+  content: 'harsh';
+  position: absolute;
+  right: 0px;
+  bottom: 20px;
+  /* height: 20px; */
+  width: 100%;
+  background-color: rgba(89,13,34,0.6);
+  backdrop-filter: blur(10px);
+  text-align: center;
+  padding: 10px 0;
+  color: white;
 }
 .testimonialBox1{
   position: relative;
