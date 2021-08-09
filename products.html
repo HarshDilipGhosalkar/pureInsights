@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Document</title>
+ <link rel="stylesheet" href="products.css">
+</head>
+<body>
+ <header>
+  <a href="" class="brand">Pure Insights</a>
+  <div class="menu-btn"></div>
+  <div class="navigation">
+   <div class="navigation-items">
+     <img src="close.png" alt="" onclick="shut()">
+    <a href="">Home</a>
+    <a href="">Contact Us</a>
+    <a href="">About Us</a>
+   </div>
+  </div>
+ </header>
+ <section class="home">
+ 
+  <img src="img/probg.jpg" alt="">
+  <div class="content active">
+    <h1>Pure Insights<br><span>Products</span></h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
+     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+  </div>
+  
+  
+  </section>
+  <script type="text/javascript">
+    //Javacript for responsive navigation menu
+    const menuBtn = document.querySelector(".menu-btn");
+    const navigation = document.querySelector(".navigation");
+ 
+    function shut(){
+      menuBtn.classList.remove("active");
+      navigation.classList.remove("active");
+    }
+    menuBtn.addEventListener("click", () => {
+      menuBtn.classList.toggle("active");
+      navigation.classList.toggle("active");
+    });
+
+ </script>
+</body>
+</html>
