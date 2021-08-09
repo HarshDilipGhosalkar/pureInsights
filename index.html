@@ -23,6 +23,7 @@
   <div class="menu-btn"></div>
   <div class="navigation">
    <div class="navigation-items">
+     <img src="close.png" alt="" onclick="shut()">
     <a href="">Home</a>
     <a href="">Contact Us</a>
     <a href="">About Us</a>
@@ -39,8 +40,8 @@
   </video> -->
   <video class="video-slide active" id="yes" src="img/3.mp4" type="video/mp4" autoplay muted loop></video>
   <video class="video-slide" src="img/5.mp4" type="mp4"  autoplay muted loop></video>
-  <video class="video-slide" src="img/3.mp4" type="mp4"  autoplay muted loop></video>
   <video class="video-slide" src="img/4.mp4" type="mp4"  autoplay muted loop></video>
+  <video class="video-slide" src="img/3.mp4" type="mp4"  autoplay muted loop></video>
   <video class="video-slide" src="img/5.mp4" type="mp4"  autoplay muted loop></video>
   <div class="content active">
     <h1>Pure<br><span>Insights</span></h1>
@@ -399,7 +400,11 @@
     //Javacript for responsive navigation menu
     const menuBtn = document.querySelector(".menu-btn");
     const navigation = document.querySelector(".navigation");
-
+ 
+    function shut(){
+      menuBtn.classList.remove("active");
+      navigation.classList.remove("active");
+    }
     menuBtn.addEventListener("click", () => {
       menuBtn.classList.toggle("active");
       navigation.classList.toggle("active");

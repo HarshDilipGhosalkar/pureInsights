@@ -961,13 +961,13 @@ header .navigation .navigation-items a{
 }
 
 header .navigation .navigation-items a:before{
-  background: #222;
+  background: #F7A903;
   height: 5px;
 }
 
 header .navigation.active .navigation-items{
  background: black;
-  
+  position: relative;
   width: 600px;
   max-width: 600px;
   margin: 20px;
@@ -978,7 +978,14 @@ header .navigation.active .navigation-items{
   border-radius: 5px;
   /* box-shadow: 0 5px 25px rgb(1 1 1 / 20%); */
 }
-
+header .navigation.active .navigation-items img{
+  display: block;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 20px;
+  height: 20px;
+}
  .menu-btn{
   background: url(menu.png)no-repeat;
   background-size: 30px;
@@ -993,7 +1000,7 @@ header .navigation.active .navigation-items{
  background: url(close.png)no-repeat;
  background-size: 25px;
  background-position: center;
- transition: 0.3s ease;
+ transition: 0.1s ease;
 }
 }
 @media (max-width: 600px){
