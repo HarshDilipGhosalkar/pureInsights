@@ -1332,8 +1332,9 @@ header .navigation.active .navigation-items img{
 .card{
   text-align: center;
 }
-
-
+.contact{
+  text-align: center;
+}
 .copyright-area{
   background:  #191919;
   padding: 25px 0;
