@@ -1329,6 +1329,10 @@ header .navigation.active .navigation-items img{
 
 
 
+.card{
+  text-align: center;
+}
+
 
 .copyright-area{
   background:  #191919;
