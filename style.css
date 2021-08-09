@@ -1335,6 +1335,9 @@ header .navigation.active .navigation-items img{
 .contact{
   text-align: center;
 }
+.contact-header{
+  font-weight: bold;
+}
 .copyright-area{
   background:  #191919;
   padding: 25px 0;
