@@ -21,6 +21,7 @@ header{
  padding: 25px 200px;
  transition: 0.5s ease;
 }
+
 header .brand{
  color: #F7A903;
  font-size: 1.6em;
@@ -32,7 +33,10 @@ header .brand{
 header .navigation{
  position: relative;
 }
-
+header .navigation .navigation-items img{
+  display: none;
+ 
+}
 header .navigation .navigation-items a{
  position: relative;
  color: black;
