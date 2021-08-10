@@ -1482,3 +1482,30 @@ header .navigation.active .navigation-items img{
     max-width: 90%;
     height: auto;
 }
+
+
+
+.copyright-area{
+  background:  #191919;
+  padding: 25px 0;
+}
+.copyright-text{
+  color: white;
+  text-align: center;
+  margin:0;
+  font-size: 14px;
+}
+.develop-by{
+  color: white;
+  text-align: center;
+  margin:0;
+  font-size: 14px;
+}
+mark{
+  font-weight: bold;
+  background-color: transparent !important;
+  color: #F7A903;
+}
+mark a{
+  color: #F7A903;
+}
