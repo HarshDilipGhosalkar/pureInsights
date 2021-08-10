@@ -68,7 +68,7 @@ section{
 .home{
  position: relative;
  width: 100%;
- min-height: 90vh;
+ min-height: 80vh;
  display: flex;
  justify-content: center;
  flex-direction: column;
@@ -239,7 +239,7 @@ margin-bottom: 65px;
   .home {
     position: relative;
     width: 100%;
-    min-height: 75vh;
+    min-height: 70vh;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -348,7 +348,7 @@ img.img-fluid{
 
 .product-wrap::before {
   content: "";
-  background: rgba(34, 34, 34, 0.6);
+  background: rgba(0, 128, 0,0.6);
   position: absolute;
   left: 0;
   right: 0;
@@ -408,7 +408,7 @@ img.img-fluid{
 }
 
 .product-wrap .product-links a:hover {
-  color: #3498db;
+  color: #FFC300;
 }
 
 .product-wrap:hover::before {
