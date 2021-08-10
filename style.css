@@ -928,6 +928,18 @@ margin: 20px;
 .prod-common .prod-info .info-div .prod-btn:hover{
   transform: scale(1.1);
 }
+.contact1{
+  display: block;
+  
+  text-align: center;
+  border-top: 40px solid #e9ecef;
+  width: 100%;
+  background-color: #e9ecef;
+  padding: 50px;
+}
+.con-contact{
+  margin-bottom: 40px;
+}
 @media (max-width: 1040px){
  header{
    padding: 12px 20px;
@@ -1345,7 +1357,7 @@ header .navigation.active .navigation-items img{
   margin-bottom: 15px;
   padding-bottom: 15px;
   position: relative;
-  color: #345676;
+  color: black;
 }
 
 .section-title h2::after {
