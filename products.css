@@ -348,7 +348,7 @@ img.img-fluid{
 
 .product-wrap::before {
   content: "";
-  background: rgba(0, 128, 0,0.6);
+  background: rgba(34, 34, 34,0.4);
   position: absolute;
   left: 0;
   right: 0;
@@ -421,7 +421,7 @@ img.img-fluid{
 
 .product-wrap:hover .product-info {
   opacity: 1;
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(2px);
 }
 
 .img-fluid{
