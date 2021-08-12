@@ -616,6 +616,7 @@ letter-spacing: 1px;
   position: relative;
   z-index: 999;
   backdrop-filter: blur(10px);
+  padding-top: 30px;
 }
 .u-info{
   margin: auto;
