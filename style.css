@@ -573,7 +573,7 @@ iframe{
   width: 100%;
   background-color: #e9ecef;
   padding: 50px;
-  
+
 }
 .us-common .usheading {
   width: 100%;
@@ -586,7 +586,7 @@ iframe{
 .u-info h3{
   font-size: 17px;
   margin-bottom: 20px;
-color: #ffbe0b;
+
 letter-spacing: 1px;
 }
 .usheading h2{
@@ -606,20 +606,32 @@ letter-spacing: 1px;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #323031;
-  color: #ffbe0b;
+  background-color: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  color: #362905;
   margin: auto;
   margin-bottom: 50px;
-  border-radius: 15px;
+  border-radius: 5px;
   padding: 15px 0;
-  
+  position: relative;
+  z-index: 999;
+  backdrop-filter: blur(10px);
 }
 .u-info{
   margin: auto;
+  /* overflow: hidden; */
+}
+.u-info img{
+  cursor: pointer;
+}
+.u-info img:hover{
+  transform: scale(1.2);
 }
 .svg{
   width: 150px;
   height: 150px;
+  border-radius: 50%;
+  margin-bottom: 20px;
 }
 .blob{
   width: 150px;
@@ -652,6 +664,65 @@ letter-spacing: 1px;
   fill: green;
   animation: animate 6s linear infinite;
 
+  
+}
+.blob-common #sv3{
+  
+  position: absolute;
+
+  /* top: 150px; */
+  width: 210px;
+  height: 210px;
+  left: 25%;
+  top: 44%;
+ 
+  animation: animate2 5s linear infinite;
+
+  
+}
+.blob-common #sv4{
+  
+  position: absolute;
+
+  /* top: 150px; */
+  width: 210px;
+  height: 210px;
+  left: 43%;
+  top: 35%;
+ 
+  animation: animate3 3s linear infinite;
+
+  
+}
+.blob-common #sv5{
+  
+  position: absolute;
+
+  /* top: 150px; */
+  width: 210px;
+  height: 210px;
+  left: 62%;
+  top: 48%;
+ 
+  animation: animate3 4s linear infinite;
+
+  
+}
+@keyframes animate3{
+  0%,100%{
+    transform: translateY(-50px);
+  }
+  50%{
+    transform: translateY(40px);
+  }
+}
+@keyframes animate2{
+  0%,100%{
+    transform: translateY(-30px);
+  }
+  50%{
+    transform: translateY(55px);
+  }
 }
 /* u-slider */
 .u-slider{
@@ -1225,6 +1296,33 @@ header .navigation.active .navigation-items img{
     padding: 15px 0;
 
 }
+ .blob-common #sv5 {
+  position: absolute;
+  /* top: 150px; */
+  width: 200px;
+  height: 200px;
+  left: 22%;
+  top: 68%;
+  animation: animate3 4s linear infinite;
+}
+ .blob-common #sv4 {
+  position: absolute;
+  /* top: 150px; */
+  width: 200px;
+  height: 200px;
+  left: 23%;
+  top: 17%;
+  animation: animate3 3s linear infinite;
+}
+ .blob-common #sv3 {
+  position: absolute;
+  /* top: 150px; */
+  width: 200px;
+  height: 200px;
+  left: 25%;
+  top: 40%;
+  animation: animate2 5s linear infinite;
+}
 .blob-common #sv2 {
   position: absolute;
   /* top: 150px; */
@@ -1251,12 +1349,16 @@ header .navigation.active .navigation-items img{
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #323031;
-  color: #ffbe0b;
+  background-color: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  color: #362905;
   margin: auto;
   margin-bottom: 50px;
-  border-radius: 15px;
-  padding: 0;
+  border-radius: 5px;
+  padding: 15px 0;
+  position: relative;
+  z-index: 999;
+  backdrop-filter: blur(10px);
 
 }
 .pip-review-out {
