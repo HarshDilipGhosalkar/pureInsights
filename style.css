@@ -1385,6 +1385,18 @@ header .navigation.active .navigation-items img{
   z-index: 999;
   backdrop-filter: blur(10px);
 }
+.contact1 {
+  display: block;
+  text-align: center;
+  border-top: 40px solid #e9ecef;
+  width: 100%;
+  background-color: #e9ecef;
+  padding: 50px 40px;
+}
+.con-contact {
+  margin-bottom: 40px;
+  margin-top: 30px;
+}
 }
 @media (max-width: 560px){
  .home .content h1{
